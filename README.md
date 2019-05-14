@@ -12,7 +12,21 @@ Save changes and get __Webhook URL__. Example: http://rocket.chat/hooks/7mbi7xr3
 
 ## Zabbix
 
-### Create a script in 
+### Create a script
+In the directory of __AlertScript__, create a file _rocketchat.py_.
+```python
+#!/usr/bin/python
+
+import sys
+import requests
+import json
+
+url     = sys.argv[1]
+subject = sys.argv[2]
+body    = sys.argv[3]
+
+```
+
 
 ### Create a media
 In __Administration > Media types > Create media type__:
