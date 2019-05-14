@@ -3,6 +3,7 @@
 
 ## Rocket.chat
 In __Rocket.Chat__, click in *Options > Administration > Integrations > New integration > Incoming WebHook*
+
 * Enabled: True
 * Name: Incoming-zabbix
 * Post to Channel: #zabbix-channel
@@ -15,6 +16,7 @@ Save changes and get __Webhook URL__. Example: http://rocket.chat/hooks/7mbi7xr3
 
 ### Create a media
 In __Administration > Media types > Create media type__:
+
 * Name: rocketchat-script
 * Type: script
 * Script name: rocketchat.py
@@ -24,6 +26,7 @@ Click in add.
 
 ### Create a user 
 in __Administration > Users > Create user__
+
 Tab User: Define Alias, Name and Groups.
 Tab Media:
 * Type: rocketchat-script
