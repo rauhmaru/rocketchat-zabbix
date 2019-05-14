@@ -28,6 +28,7 @@ Click in add.
 in __Administration > Users > Create user__
 
 Tab User: Define Alias, Name and Groups.
+
 Tab Media:
 * Type: rocketchat-script
 * Send to: http://rocket.chat/hooks/7mbi7xr3akMfKZdna/2wPNTHja7xaREdZY39744eehskYTkw7yx6mwrBpD5Wjphfqg
