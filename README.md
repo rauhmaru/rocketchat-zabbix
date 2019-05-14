@@ -132,3 +132,5 @@ Operation details:
 
 Click in Add to Operation details and Add in screen.
 
+![Image of Operations tab]
+()
