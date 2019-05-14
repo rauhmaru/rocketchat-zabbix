@@ -132,5 +132,4 @@ Operation details:
 
 Click in Add to Operation details and Add in screen.
 
-![Image of Operations tab]
-(https://paste.opensuse.org/images/48396276.png)
+![Image of Operations tab](https://paste.opensuse.org/images/48396276.png)
