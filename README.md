@@ -95,7 +95,7 @@ Click in Recovery message
 * Recovery message:
 ```json
 {
-  "text": ":negative_squared_cross_mark: *{TRIGGER.NAME} ({ITEM.VALUE1})*",
+  "text": ":white_check_mark: *{TRIGGER.NAME} ({ITEM.VALUE1})*",
   "attachments": [
     {
       "color": "#00FF00",
