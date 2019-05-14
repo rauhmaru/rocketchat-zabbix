@@ -2,8 +2,11 @@
  Sends Zabbix notifications to Rocket.Chat, an Open Source Slack Alternative (Tested on Zabbix 2.4.5. For higher versions, change similar parameters.)
 
 # Definitions in examples
-Zabbix URL: zabbix.example.com
-Rocket.Chat URL: rocketchat.example.com
+
+Variable | URL
+---------|----
+Zabbix URL | zabbix.example.com
+Rocket.Chat URL | rocketchat.example.com
 
 ## Rocket.chat
 In __Rocket.Chat__, click in *Options > Administration > Integrations > New integration > Incoming WebHook*
@@ -43,9 +46,19 @@ Click in add.
 
 
 ### Create a user 
+
+__IMPORTANT
+I recommend that you create a group with read-only permission (zabbix-ro) of the items you want to receive alerts, and put the user rocketchat on it.__
+
+
 in __Administration > Users > Create user__
 
-Tab User: Define Alias, Name and Groups.
+#### Tab User
+
+Define
+* Alias: rocketchat
+* Name: rocketchat
+* Groups:
 
 Tab Media:
 * Type: rocketchat-script
@@ -112,4 +125,10 @@ In this configuration, the triggers will only be sent if an event occurs in high
 
 #### Operations tab
 
+Operation details:
+* Operation type: Send message
+* Send to Users: rocketchat
+* Send only to: rocketchat-script
+
+Click in Add to Operation details and Add in screen.
 
