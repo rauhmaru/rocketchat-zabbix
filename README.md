@@ -139,3 +139,5 @@ So when a trigger is triggered, this will be the message sent to Rocket.Chat:
 
 ![Rocket.Chat Trigger](https://paste.opensuse.org/images/58705750.png)
 
+__Note:__
+To view the graphs, you need to be logged in to Zabbix.
