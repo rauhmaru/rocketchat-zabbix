@@ -133,3 +133,9 @@ Operation details:
 Click in Add to Operation details and Add in screen.
 
 ![Image of Operations tab](https://paste.opensuse.org/images/48396276.png)
+
+
+So when a trigger is triggered, this will be the message sent to Rocket.Chat:
+
+![Rocket.Chat Trigger](https://paste.opensuse.org/images/58705750.png)
+
