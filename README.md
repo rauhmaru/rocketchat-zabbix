@@ -1,5 +1,5 @@
 # rocketchat-zabbix
- Sends Zabbix notifications to Rocket.Chat, an Open Source Slack Alternative (Tested on Zabbix 2.4.5. For higher versions, change similar parameters.)
+Sends Zabbix notifications to Rocket.Chat, an Open Source Slack Alternative (Tested on Zabbix 2.4.5. For higher versions, change similar parameters.)
 
 # Definitions in examples
 
@@ -20,7 +20,7 @@ Save changes and get __Webhook URL__. Example: http://rocketchat.example.com/hoo
 ## Zabbix
 
 ### Create a script
-In the directory of __AlertScript__, create a file _rocketchat.py_.
+In the directory of __AlertScript__ (Use `grep ^AlertScript /etc/zabbix/zabbix_server.conf`), create a file _rocketchat.py_.
 ```python
 #!/usr/bin/python
 
@@ -47,20 +47,21 @@ Click in add.
 
 ### Create a user 
 
-__IMPORTANT
-I recommend that you create a group with read-only permission (zabbix-ro) of the items you want to receive alerts, and put the user rocketchat on it.__
+__IMPORTANT__
+
+> I recommend that you create a group with read-only permission (zabbix-ro) of the items you want to receive alerts, and put the user rocketchat on it.
 
 
 in __Administration > Users > Create user__
 
-#### Tab User
+#### User Tab
 
 Define
 * Alias: rocketchat
 * Name: rocketchat
-* Groups:
+* Groups: zabbix-ro
 
-Tab Media:
+#### Media Tab:
 * Type: rocketchat-script
 * Send to: http://rocketchat.example.com/hooks/7mbi7xr3akMfKZdna/2wPNTHja7xaREdZY39744eehskYTkw7yx6mwrBpD5Wjphfqg
 * Status Enabled.
