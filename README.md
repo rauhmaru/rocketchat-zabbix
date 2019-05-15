@@ -108,11 +108,14 @@ Click in Recovery message
   ]
 }
 ```
+To understand more about Zabbix Macros, check the link:
+ https://www.zabbix.com/documentation/3.4/manual/appendix/macros/supported_by_location
+
 Click in Enabled, and Add.
 
 #### Conditions tab
 
-* Type of calculation: And/Or (A and B and (C or D)
+* Type of calculation: And/Or (A and B and (C or D))
 * Conditions:
 
 Label | Name
