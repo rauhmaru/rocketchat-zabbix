@@ -149,9 +149,9 @@ To view the graphs, you need to be logged in to Zabbix.
 
 
 ## Plus: Zabbix Template
-__you need to set the user macro on the host where the template will be applied.__
+__you need to set the user macro ROOT_URL on the host where the template will be applied.__
 
-ROOT_URL: Your Rocket.Chat URL
+`{$ROOT_URL}: Your Rocket.Chat URL (ex.: https://rocket.example.com )`
 
 This template monitors:
 
