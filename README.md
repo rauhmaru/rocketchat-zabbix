@@ -145,3 +145,37 @@ So when a trigger is triggered, this will be the message sent to Rocket.Chat:
 
 __Note:__
 To view the graphs, you need to be logged in to Zabbix.
+
+
+
+## Plus: Zabbix Template
+__you need to set the user macro on the host where the template will be applied.__
+
+ROOT_URL: Your Rocket.Chat URL
+
+This template monitors:
+
+### Itens
+* MongoDB
+  * Memory usage
+  * MOngoDB service status
+* Node
+  * Memory usage node main.js
+  * Node on port 3000
+  * Number of process node main.js
+* Web
+  * Check status of webpage
+  * Check status of api
+
+### Triggers
+* Rocket.Chat is down
+* Node main.js is NOT RUNNING
+* NodeJS port is closed
+* MongoDB port is closed
+
+### Graphics
+* Memory usage node main.js
+* Memory usage mongoDB
+ 
+
+
