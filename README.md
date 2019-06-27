@@ -33,7 +33,6 @@ subject = sys.argv[2]
 body    = sys.argv[3]
 
 r = requests.post(url, body)
-~
 
 
 ```
