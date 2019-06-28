@@ -26,7 +26,6 @@ In the directory of __AlertScript__ (Use `grep ^AlertScript /etc/zabbix/zabbix_s
 
 import sys
 import requests
-import json
 
 url     = sys.argv[1]
 body    = sys.argv[2]
