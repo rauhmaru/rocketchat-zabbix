@@ -29,8 +29,7 @@ import requests
 import json
 
 url     = sys.argv[1]
-subject = sys.argv[2]
-body    = sys.argv[3]
+body    = sys.argv[2]
 
 r = requests.post(url, body)
 
