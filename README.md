@@ -68,7 +68,7 @@ Define
 * Groups: zabbix-ro
 
 #### Media Tab:
-* Type: rocketchat-script
+* Type: rocketchat alert
 * Send to: http://rocketchat.example.com/hooks/7mbi7xr3akMfKZdna/2wPNTHja7xaREdZY39744eehskYTkw7yx6mwrBpD5Wjphfqg
 * Status Enabled.
 
