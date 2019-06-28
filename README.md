@@ -41,9 +41,12 @@ r = requests.post(url, body)
 ### Create a media
 In __Administration > Media types > Create media type__:
 
-* Name: rocketchat-script
+* Name: rocketchat alert
 * Type: script
 * Script name: rocketchat.py
+
+![zbx_alert](https://github.com/rauhmaru/rocketchat-zabbix/blob/master/img/zbx_alertconf.PNG)
+
 
 Click in add.
 
