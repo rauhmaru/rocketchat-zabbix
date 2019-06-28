@@ -45,6 +45,13 @@ In __Administration > Media types > Create media type__:
 * Type: script
 * Script name: rocketchat.py
 
+Script parameters:
+
+* {ALERT.SENDTO}
+* {ALERT.MESSAGE}
+
+{ALERT.SENDTO} will be changed by webhook url and {ALERT.MESSAGE} will be changed by alert message, formated in JSON.
+
 ![zbx_alert](https://github.com/rauhmaru/rocketchat-zabbix/blob/master/img/zbx_alertconf.PNG)
 
 
