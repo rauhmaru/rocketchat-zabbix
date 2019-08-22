@@ -36,6 +36,10 @@ r = requests.post(url, body)
 ```
 
 
+Add executable permissions to the script
+
+`chmod +x rocketchat.py`
+
 ### Create a media
 In __Administration > Media types > Create media type__:
 
