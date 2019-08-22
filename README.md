@@ -20,7 +20,7 @@ Save changes and get __Webhook URL__. Example: http://rocketchat.example.com/hoo
 ## Zabbix
 
 ### Create a script
-In the directory of __AlertScript__ (Use `grep ^AlertScript /etc/zabbix/zabbix_server.conf`), create a file _rocketchat.py_.
+In directory of __AlertScript__ (Use `grep ^AlertScript /etc/zabbix/zabbix_server.conf`), create a file _rocketchat.py_.
 ```python
 #!/usr/bin/python
 
@@ -138,7 +138,7 @@ Label | Name
 A | Maintenance status not in _maintenance_
 B | Trigger value = _PROBLEM_
 C | Trigger severity = _Disaster_
-D | Trigger severity = _High
+D | Trigger severity = _High_
 
 In this configuration, the triggers will only be sent if an event occurs in high severity or disaster. Minor events will not be reported. To add, just include them.
 
