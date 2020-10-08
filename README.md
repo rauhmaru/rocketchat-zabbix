@@ -160,7 +160,7 @@ So when a trigger is triggered, this will be the message sent to Rocket.Chat:
 ![Rocket.Chat Trigger](https://paste.opensuse.org/images/58705750.png)
 
 __Note:__
-To view the graphs, you need to be logged in to Zabbix, or you can too:
+To view the graphs, you need to be logged in to Zabbix, or you can too (Thanks to [@vjunior1981](https://github.com/vjunior1981) in [#3](https://github.com/rauhmaru/rocketchat-zabbix/issues/3)):
 * Enable guest user;
 * Allow guest user to read the required hosts;
 
