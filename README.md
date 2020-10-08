@@ -160,9 +160,11 @@ So when a trigger is triggered, this will be the message sent to Rocket.Chat:
 ![Rocket.Chat Trigger](https://paste.opensuse.org/images/58705750.png)
 
 __Note:__
-To view the graphs, you need to be logged in to Zabbix.
+To view the graphs, you need to be logged in to Zabbix, or you can too:
+* Enable guest user;
+* Allow guest user to read the required hosts;
 
-
+With this, you graphics are public. Use only if necessary.
 
 ## Plus: Zabbix Template
 __you need to set the user macro ROOT_URL on the host where the template will be applied.__
